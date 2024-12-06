@@ -8,10 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
+    html, body {
       font-family: 'Be Vietnam', sans-serif;
       margin: 0;
       padding: 0;
+      height: 100%;
       background-color: #f4f4f4;
     }
 
@@ -27,13 +28,13 @@
       padding: 30px;
       margin: 0;
     }
-    
+
     nav {
       background-color: #ece3dd;
       padding: 8px;
       width: 100%;
       box-sizing: border-box;
-}
+    }
 
     nav ul {
       list-style: none;
@@ -42,21 +43,27 @@
       display: flex;
       justify-content: center;
       gap: 20px;
-}
+    }
 
     nav ul li {
       display: inline;
     }
 
     nav ul li a {
-      color: #a1a0a0	;
+      color: #a1a0a0;
       text-decoration: none;
       font-size: 1rem;
+    }
+    
+    nav ul li a:hover {
+      color: #3d4e5b;
     }
 
     .homepage {
       text-align: center;
       padding: 50px 10%;
+      min-height: calc(100vh - 150px);
+      box-sizing: border-box;
     }
 
     .homepage h2 {
@@ -71,7 +78,7 @@
     }
 
     footer {
-      background-color: #a9a496	;
+      background-color: #a9a496;
       color: white;
       text-align: center;
       padding: 10px;
@@ -99,7 +106,7 @@
     <h1>Olivia Yip's Portfolio</h1>
     <nav>
       <ul>
-        <li><a href="https://oliviayiip.github.io/about-me-page/ ">About Me</a></li>
+        <li><a href="https://oliviayiip.github.io/about-me-page/">About Me</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact Me</a></li>
@@ -113,7 +120,7 @@
   </section>
 
   <footer>
-    &copy; 2024 Olivia Yip. All rights reserved.
+    &copy; 2024 Olivia Yip. All Rights Reserved.
   </footer>
 </body>
 </html>
