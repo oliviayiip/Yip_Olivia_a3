@@ -3,131 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olivia Yip's Portfolio - Homepage</title>
+  <title>Olivia Yip's Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600&display=swap" rel="stylesheet">
   <style>
     html, body {
-      font-family: 'Be Vietnam', sans-serif;
       margin: 0;
       padding: 0;
-      height: 10%;
-      background-color: #f4f4f4;
+      font-family: 'Be Vietnam', sans-serif;
+      height: 100%;
     }
-
-    header {
-      background-color: #a9a496;
+    body {
+      background-image: url('1c88c542dbe4eb825c1ebb8d7a45ba43.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       color: white;
-      text-align: center;
-    }
-
-    header h1 {
-      font-family: 'Be Vietnam', sans-serif;
-      font-size: 2.5rem;
-      padding: 50px;
-      margin: 0;
-    }
-
-    nav {
-      background-color: #ece3dd;
-      padding: 8px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
       display: flex;
+      align-items: center;
       justify-content: center;
-      gap: 20px;
-    }
-
-    nav ul li {
-      display: inline;
-    }
-
-    nav ul li a {
-      color: #a1a0a0;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    
-    nav ul li a:hover {
-      color: #3d4e5b;
+      text-align: center;
     }
 
     .homepage {
-      text-align: center;
-      padding: 50px 10% 50px;
-      min-height: calc(100vh - 150px);
-      box-sizing: border-box;
-      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(1c88c542dbe4eb825c1ebb8d7a45ba43.jpg
-);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 50px;
-      color: black;
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
     }
 
-    .homepage h2 {
-      font-family: 'Be Vietnam', sans-serif;
-      font-size: 2rem;
-      margin-bottom: 20px;
+    .homepage h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
 
     .homepage p {
       font-size: 1rem;
       line-height: 1.6;
+      margin-bottom: 20px;
     }
 
-    footer {
-      background-color: #a9a496;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      font-size: 0.9rem;
+    .homepage a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      text-decoration: none;
+      color: #fff;
+      background: #a9a496;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .homepage a:hover {
+      background: #3d4e5b;
     }
 
     @media (max-width: 600px) {
-      header h1 {
+      .homepage h1 {
         font-size: 2rem;
       }
 
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
+      .homepage p {
+        font-size: 0.9rem;
       }
 
-      .homepage {
-        padding: 20px;
+      .homepage a {
+        font-size: 0.9rem;
       }
     }
   </style>
 </head>
 <body>
-  <header>
+  <div class="homepage">
     <h1>Olivia Yip's Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="https://oliviayiip.github.io/about-me-page/">About Me</a></li>
-        <li><a href="https://oliviayiip.github.io/resume-page/">Resume</a></li>
-        <li><a href="https://oliviayiip.github.io/projects-page/">Projects</a></li>
-        <li><a href="https://oliviayiip.github.io/contact-me-page/">Contact Me</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="homepage">
-    <h2>Hi there! I'm Olivia!</h2>
-    <p>Welcome to my portfolio. Here, you'll find the projects I've worked on, my skills, resume, and how to contact me. Feel free to explore!</p>
-  </section>
-
-  <footer>
-    &copy; 2024 Olivia Yip. All Rights Reserved.
-  </footer>
+    <h2>
+      Hi there! I'm Olivia! </h2>
+    <p>Welcome to my portfolio website. Here, you'll find the projects I've worked on, my skills, and how to contact me. Feel free to explore!</p>
+    <a href="https://oliviayiip.github.io/about-me-page/">About Me</a>
+    <a href="https://oliviayiip.github.io/resume-page/">Resume</a>
+    <a href="https://oliviayiip.github.io/projects-page/">Projects</a>
+    <a href="https://oliviayiip.github.io/contact-me-page/">Contact Me</a>
+  </div>
 </body>
 </html>
