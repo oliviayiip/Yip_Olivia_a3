@@ -1,2 +1,2 @@
-# Yip_Olivia_a3
+# Olivia Yip Portfolio
 ◕ ◞ ◕ This project was made using https://netnet.studio
